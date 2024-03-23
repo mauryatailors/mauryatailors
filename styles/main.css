@@ -157,7 +157,7 @@ h1,
   padding-left: 0.5em;
 }
 
-.container .right .mainInfo .form-subscribe button {
+.container .right .mainInfo a {
   width: 120px;
   height: 40px;
   border: 1px solid black;
@@ -169,12 +169,12 @@ h1,
 }
 
 @media screen and (max-width: 576px) {
-  .container .right .mainInfo .form-subscribe button {
+  .container .right .mainInfo  a {
     width: 100px;
   }
 }
 
-.container .right .mainInfo .form-subscribe button:hover {
+.container .right .mainInfo a:hover {
   cursor: pointer;
 }
 
